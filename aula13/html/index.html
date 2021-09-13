@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="lego" src="../img/lego.png" alt="fundo vermelho com a plavra lego em letras brancas">
+    </header>
+</body>
+<section>
+    <h1>Brinquedos</h1>
+    <form action="" method="GET">
+        <div>
+            <label for="nomebrinquedos">Escreva o nome do seu brinquedo preferido</label>
+            <input type="text" name="nomebrinquedos" placeholder="Descreva o nome do brinquedo">
+            <br>
+            <br>
+            <label for="descricaotexto">Descreva a sua brincadeira favorita</label>
+            <textarea name="descricaotexto" id="descricaotexto" cols="40" row="100"></textarea>
+            <br>
+            <br>
+            <label for="select">Selecione a cor do seu lego</label>
+            <select name="select" id="select">
+                <option disabled selected>Selecione uma opção</option>
+                <option value="Azul">Azul</option>
+                <option value="Vermelho">Vermelho</option>
+                <option value="Amarelo">Amarelo</option>
+                <option value="Verde">Verde</option>
+            </select>
+            <br>
+            <br>
+            <button type="reset"> Apagar tudo </button>
+            <button type="submit"> Enviar </button>
+
+        </div>
+    </form>
+</section>
+
+</html>
